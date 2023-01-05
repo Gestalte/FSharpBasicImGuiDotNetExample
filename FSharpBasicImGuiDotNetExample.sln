@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "ImGui.NET.FSharp", "ImGui.NET.FSharp\ImGui.NET.FSharp.fsproj", "{1AFC15A7-429C-41BD-8089-68489BC084EC}"
 EndProject
-Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharpBasicImGuiDotNetExample", "TimezoneConverter.MVU\FSharpBasicImGuiDotNetExample.fsproj", "{205584BA-3EE8-4F34-BB4F-82040AE8229B}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "FSharpBasicImGuiDotNetExample", "FSharpBasicImGuiDotNetExample\FSharpBasicImGuiDotNetExample.fsproj", "{4179DFEB-B2A5-4EF0-8A4B-3EC0209E24A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1AFC15A7-429C-41BD-8089-68489BC084EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1AFC15A7-429C-41BD-8089-68489BC084EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1AFC15A7-429C-41BD-8089-68489BC084EC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{205584BA-3EE8-4F34-BB4F-82040AE8229B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{205584BA-3EE8-4F34-BB4F-82040AE8229B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{205584BA-3EE8-4F34-BB4F-82040AE8229B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{205584BA-3EE8-4F34-BB4F-82040AE8229B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4179DFEB-B2A5-4EF0-8A4B-3EC0209E24A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4179DFEB-B2A5-4EF0-8A4B-3EC0209E24A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4179DFEB-B2A5-4EF0-8A4B-3EC0209E24A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4179DFEB-B2A5-4EF0-8A4B-3EC0209E24A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
