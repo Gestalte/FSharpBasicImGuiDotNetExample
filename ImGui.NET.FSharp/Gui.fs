@@ -8,12 +8,20 @@ open System.Numerics
 module Gui = 
     let private runSeq seq = seq |> Seq.iter (fun i -> i())
 
+    let windowsMode = fun () ->
+        let io = ImGuiNET.ImGui.GetIO()
+        
+        ImGui.SetWindowPos(Vector2(0f,0f))
+        ImGui.SetWindowSize(Vector2(io.DisplaySize.X, io.DisplaySize.Y))
+
     let app (builder:#seq<ImGuiBuilder>) = fun () ->
         builder |> Seq.iter (fun i -> i())
+        
 
-    let window label (builder:#seq<ImGuiBuilder>) = fun () ->
-        if (ImGui.Begin(label)) then
+    let window label (flags:ImGuiWindowFlags) (builder:#seq<ImGuiBuilder>) = fun () ->
+        if (ImGui.Begin(label, flags)) then
             runSeq builder
+            windowsMode()
             ImGui.End()
 
     let mainMenuBar (menus:#seq<ImGuiBuilder>) = fun () ->
